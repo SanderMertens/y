@@ -1,5 +1,9 @@
 # The Y programming language
-Y will be launched on June 22nd.
+The Y release date can be acquired by running the following statement:
+
+```
+Y release
+```
 
 Its core feature is introspection. During bootstrap Y questions its own existence, and from that the parser is generated. Y does not translate to C or assembly or machine code. Instead it materializes directly into RAM because of its declarative nature.
 

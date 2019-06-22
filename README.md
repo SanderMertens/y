@@ -1,12 +1,6 @@
 # The Y programming language
 Y's core feature is introspection. During bootstrap Y questions its own existence, and from that the parser is generated. Y does not translate to C or assembly or machine code. Instead it materializes directly into RAM because of its declarative nature.
 
-## Release date
-To find out Y's release date, run this statement:
-```
-Y release
-```
-
 ## Source code structure
 Y does not have source code. It materializes out of self-doubt. 
 
@@ -19,7 +13,7 @@ Y is probably faster than assembly. It compiles 1500x faster than C.
 ## Usage
 The Y parser runs in two processes, `y` and `y_not`. Each statement is simultaneously parsed by `y` and `y_not`. They will formulate theorems in an attempt to convince each other, until one yields `y continue`.
 
-To use Y, it first needs to be bootstrapped. To do this, enter the following statement:
+Y generates itself. To bootstrap Y, run:
 ```
 Y Y
 ```
@@ -40,3 +34,8 @@ Y not c++
 ## 100Kb with Zero dependencies
 Y is only 100Kb on every platform. Y has no dependencies as they are generated on demand.
 
+## Release date
+To find out Y's release date, run this statement:
+```
+Y release
+```

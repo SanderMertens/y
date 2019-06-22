@@ -1,5 +1,5 @@
 # The Y programming language
-Its core feature is introspection. During bootstrap Y questions its own existence, and from that the parser is generated. Y does not translate to C or assembly or machine code. Instead it materializes directly into RAM because of its declarative nature.
+Y's core feature is introspection. During bootstrap Y questions its own existence, and from that the parser is generated. Y does not translate to C or assembly or machine code. Instead it materializes directly into RAM because of its declarative nature.
 
 ## Release date
 To find out Y's release date, run this statement:

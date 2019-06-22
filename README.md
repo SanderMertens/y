@@ -17,7 +17,7 @@ Each line needs to start with "Y".
 Y is probably faster than assembly. It compiles 1500x faster than C.
 
 ## Usage
-The Y parser runs in two processes, `y` and `y_not`. Each statement is simultaneously parsed by `y` and `y_not`. They will formulate theorems in an attempt to convince each other, until one process throws an "YContinue" exception.
+The Y parser runs in two processes, `y` and `y_not`. Each statement is simultaneously parsed by `y` and `y_not`. They will formulate theorems in an attempt to convince each other, until one yields `y continue`.
 
 To use Y, it first needs to be bootstrapped. To do this, enter the following statement:
 ```

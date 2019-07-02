@@ -47,7 +47,7 @@ To ensure that Y's parser can run tasks in parallel, a developer should employ o
 To avoid running out of questions while addressing a particularly hard question, a good technique is to wait an undeterminate amount of time doing nothing in the hope that the question heap repopulates fast enough. Procrastination is particularly effective when used in combination with bikeshedding.
 
 ### Pre-emptive releasing
-In a real-time systems, a parser may need to finish before a certain communicated time and date. To satisfy these kinds of restrictions, parsers can employ the "pre-emptive release" pattern. With this pattern, the Y parser terminates at said date and releases its current state. While similar to over-promising, it is not the same as a pre-emptive release is not required to produce a result that answers the posed question.
+In a real-time system, a parser may need to finish before a certain communicated time and date. To satisfy these kinds of restrictions, parsers can employ the "pre-emptive release" pattern. With this pattern, the Y parser terminates at said date and releases its current state. While similar to over-promising, it is not the same as a pre-emptive release is not required to produce a result that answers the posed question.
 
 An advanced technique combines pre-emptive releasing with over-promising to generate maximum controversy by over-promising the release date, and then following this up with a pre-emptive release.
 

@@ -38,7 +38,7 @@ Y's resource model is based on a question heap. The Y parser consumes questions 
 If you are writing code in Y, you do well to follow these well-established patterns that ensure your code is at all times questionable:
 
 ### Bikeshedding
-The key challenge to writing code for a Y parser is to ensure it has access to a healthy supply of questions. Bikeshedding is a cheap and effective method to generate large amounts of questions without consuming a lot of controversy. While bikeshedding by itself is unlikely to produce information that is of much utility, it is an important technique to emulate progress (also see: procrastination).
+The key challenge to writing code for a Y parser is to ensure it has access to a healthy supply of questions. Bikeshedding is a cheap and effective method for generating large amounts of questions without consuming a lot of controversy. While bikeshedding by itself is unlikely to produce information that is of much utility, it is an important technique to emulate progress (also see: procrastination).
 
 ### Over-promising
 To ensure that Y's parser can run tasks in parallel, a developer should employ over-promising where possible. With this technique, the Y parser can return answers with questionable confidence levels in response to difficult questions. This allows the consumer of the answer to continue its work while the parser may (or may not) continue to work on the question.
